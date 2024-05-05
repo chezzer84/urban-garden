@@ -101,6 +101,7 @@ main p {
 
 .intro-text {
   padding: 20px 30px 20px 30px;
+  background-color: white;
 }
 
 .grid {
@@ -124,6 +125,7 @@ main p {
 
 .image-gallery {
   padding: 0px 20px 0px 20px;
+  background-color: white;
 }
 
 .gallery {
@@ -266,4 +268,43 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
+}
+
+@media (max-width: 960px) {
+  header h1 {
+    font-size: 60px;
+  }
+
+  header h2 {
+    font-size: 26px;
+  }
+
+  header a {
+    margin: 30px 0px 10px 0px;
+  }
+  main h1 {
+    font-size: 40px;
+  }
+
+  main h2 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .grid-3-col {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+  .grid-2-col {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .bullet-list h2 {
+    font-size: 40px;
+  }
+
+  .grid-2-col-wide-narrow {
+    grid-template-columns: 1fr;
+  }
 }
