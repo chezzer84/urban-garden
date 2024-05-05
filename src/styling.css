@@ -58,7 +58,7 @@ header a {
 
 .header-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(../images/green-header.png);
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/562/original/green-header.png?1714891096);
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
